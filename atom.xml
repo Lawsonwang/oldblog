@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lawsonwang.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-12-19T10:32:04.658Z</updated>
+    <title>WLS 的小站</title>
+    <updated>2021-02-10T13:30:18.463Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lawsonwang.github.io"/>
     <link rel="self" href="https://lawsonwang.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>十行一编译，千里无CE</subtitle>
     <logo>https://lawsonwang.github.io/images/avatar.png</logo>
     <icon>https://lawsonwang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2021, WLS 的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[NOIp 2020 游记（骗分记）]]></title>
+        <id>https://lawsonwang.github.io/post/noip-2020-you-ji/</id>
+        <link href="https://lawsonwang.github.io/post/noip-2020-you-ji/">
+        </link>
+        <updated>2021-01-22T13:45:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>一次骗分之旅</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一次骗分之旅</p>
+<!-- more -->
+<h2 id="day-n">Day -n</h2>
+<p>CSP 提高级 2=，珂海星。</p>
+<h2 id="day-1">Day -1</h2>
+<p>晚上淦文化课，根本无法复习备赛，呜呜呜。</p>
+<h2 id="day-0">Day 0</h2>
+<p>晚上总是要备赛的，打了几遍线段树，本来还想打鸭棋练码力的（<s>当然是怕儒略历类题</s>），结果没时间了，哎……</p>
+<h2 id="day-1-2">Day 1</h2>
+<p>早上起了个大早<s>可还是没时间打完鸭棋</s>，前往考场。</p>
+<p>进入考场，与 DJQ、WS 和 LCY 等巨佬在同一考场。打完快读（<s>实际上是抄 DJQ 的</s>），本来还想打个线段树练码力，正要开打结果空气突然安静，回头一看，密码已显示在大屏幕上……</p>
+<p>首先打开 T1，图论暴力？首先想到 DFS，然后又想到了 BFS。再一想决定打 BFS，结果打完了样例却过不了，最后发现我的 BFS 是错的……</p>
+<p>此时已过了 1h。赶紧换 DFS，结果日常打炸又耗了许久。终于过了大样例，正在沾沾自喜，又发现大样例的数据是 1000 的，而题中是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>5</mn></msup></mrow><annotation encoding="application/x-tex">10^5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span> ？？！感觉有亿点危。</p>
+<p>再看 T2，结果第一反应是 KMP？完了没复习，跳过（（（</p>
+<p>来到 T3，什么？构造题？！第一想法是骗分，骗 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n=2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 的情况（当然也是我的所有想法）。打了半天，过了样例后却发现这算法有 BUG（自己把自己给 Hack 了）。算了没思路了，继续。</p>
+<p>到了 T4，啥 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> 维？算了先颓一会吧。于是先颓了一会小恐龙，又颓了一会虚拟机的贪吃蛇，然后发现 12:00 了，开做 T4 吧。</p>
+<p>写完暴力，日常炸样例，调了 20min 才发现是忘记数组归零了。。。</p>
+<p>终于做（<s>骗</s>）完了 T4，再回去 T2 还是没思路（脑回路突然爆炸想不到显然暴力），此时只剩 5min，算了没了，于是开始刷 <code>QaQw AK NOIP</code> 刷到考试结束（</p>
+<p>估分：</p>
+<p>T1：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>60</mn><mo>−</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">60-100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>（自我安慰）</p>
+<p>T2：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> （这不废话吗）</p>
+<p>T3：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>−</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">0-10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></p>
+<p>T4：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>15</mn><mo>−</mo><mn>40</mn></mrow><annotation encoding="application/x-tex">15-40</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">0</span></span></span></span>（也是自我安慰）</p>
+<p>幻想能一等奖吧……</p>
+<p>（完）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://lawsonwang.github.io/post/ce-shi/</id>
+        <link href="https://lawsonwang.github.io/post/ce-shi/">
+        </link>
+        <updated>2021-01-20T11:05:01.000Z</updated>
+        <content type="html"><![CDATA[<p>测试</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6633598"><label class="task-list-item-label" for="task-item-6633598"> Item1</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7415071"><label class="task-list-item-label" for="task-item-7415071"> Item2</label></li>
+</ul>
+<p><strong>Text1</strong><br>
+<em>Text2</em><br>
+<s>Text3</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lawsonwang.github.io/post/hello-gridea/</id>
